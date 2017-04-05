@@ -1,0 +1,44 @@
+/*页面初始化*/
+body,ul,li,div,a,p,h2,h4{
+    margin: 0px;
+    padding: 0px;
+    font-family: 微软雅黑;
+    font-size: 14px;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;}
+
+.main{
+    border: 2px solid gray;
+    width: 1269px;
+    margin: 0 auto;
+}
+.main ul{
+    overflow: hidden;
+}
+.main li{
+    float: left;
+    margin: 5px;
+    border: 1px solid gray;
+    position: relative;
+}
+.main li img{
+    margin: 5px;
+}
+.main li .none{
+    display: none;
+    width: 412px;
+    height: 276px;
+    position: absolute;
+    top:0;
+    left: 0;
+    background: rgba(0,0,0,0.7);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 276px;
+}

@@ -1,0 +1,84 @@
+/*页面初始化*/
+body,ul,li,div,a,p,h2,h4{
+    margin: 0px;
+    padding: 0px;
+    font-family: 微软雅黑;
+    font-size: 14px;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.box{
+    width: 35px;
+    height: 100%;
+    background: #df9500;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+.box ul{
+    margin-top: 170px;
+}
+.box ul li{
+    background-image: url("../images/toolbars.png") ;
+    width: 35px;
+    height: 30px;
+    position: relative;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.box ul li:hover{
+    background-color: lightblue;
+}
+.box ul .icon1{
+    background-position: -29px 0;
+}
+.box ul .icon2{
+    background-position: -29px -25px;
+}
+.box ul .icon3{
+    background-position: -29px -46px;
+}
+.box ul .icon4{
+    background-position: -29px -71px;
+}
+.box ul .icon5{
+    background-position: -29px -94px;
+}
+.box ul .icon6{
+    background-position: -29px -127px;
+}
+.txt{
+    position: absolute;
+    right: 70px;
+    background: #df9500;
+    width: 90px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    opacity: 0;
+    display: none;
+    cursor: pointer;
+    color: white;
+}
+.num{
+    position: absolute;
+    right: -10px;
+    color: #df9500;
+    top: 0;
+    font-size: 30px;
+}
+.top{
+    width: 35px;
+    height: 33px;
+    background: url("../images/toolbars.png") no-repeat -26px -186px ;
+    position: absolute;
+    bottom: 70px;
+    cursor: pointer;
+}
+.top:hover{
+    background-color: lightblue;
+}
