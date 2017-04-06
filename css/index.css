@@ -1,0 +1,145 @@
+/*页面初始化*/
+body,div,ul,a{
+    list-style: none;
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+.clear{
+    clear:both;
+}
+/*页面初始化*/
+/*images box*/
+#box{
+    width: 1250px;
+    margin: 0 auto;
+}
+#box .item{
+    margin: 0 auto;
+    width: 1250px;
+    position: relative;
+
+}
+#box .item li{
+    width: 400px;
+    height: 260px;
+    border: 2px solid grey;
+    float: left;
+    padding: 5px 5px;
+    text-align: center;
+    position: relative;
+
+}
+#box .item .the1_a{
+    width: 400px;
+    height: 260px;
+    background:black;
+    z-index: 999;
+    position: absolute;
+    top: 0px;
+    display: block;
+    left: 0px;
+    line-height: 264px;
+    color: white;
+    font-family: "微软雅黑 Light";
+    font-size: 20px;
+    margin: 5px 5px;
+    opacity: 0.9;
+    display: none;
+
+}
+#box .item .the2_a{
+    width: 400px;
+    height: 260px;
+    background:black;
+    z-index: 999;
+    position: absolute;
+    top: 0px;
+    display: block;
+    left: 0px;
+    line-height: 264px;
+    color: white;
+    font-family: "微软雅黑 Light";
+    font-size: 20px;
+    margin: 5px 5px;
+    opacity: 0.9;
+    display: none;
+
+}
+#box .item .the3_a{
+    width: 400px;
+    height: 260px;
+    background:black;
+    z-index: 999;
+    position: absolute;
+    top: 0px;
+    display: block;
+    left: 0px;
+    line-height: 264px;
+    color: white;
+    font-family: "微软雅黑 Light";
+    font-size: 20px;
+    margin: 5px 5px;
+    opacity: 0.9;
+    display: none;
+
+}
+#box .item .the4_a{
+    width: 400px;
+    height: 260px;
+    background:black;
+    z-index: 999;
+    position: absolute;
+    top: 0px;
+    display: block;
+    left: 0px;
+    line-height: 264px;
+    color: white;
+    font-family: "微软雅黑 Light";
+    font-size: 20px;
+    margin: 5px 5px;
+    opacity: 0.9;
+    display: none;
+
+}
+#box .item .the5_a{
+    width: 400px;
+    height: 260px;
+    background:black;
+    z-index: 999;
+    position: absolute;
+    top: 0px;
+    display: block;
+    left: 0px;
+    line-height: 264px;
+    color: white;
+    font-family: "微软雅黑 Light";
+    font-size: 20px;
+    margin: 5px 5px;
+    opacity: 0.9;
+    display: none;
+
+}
+#box .item .the6_a{
+    width: 400px;
+    height: 260px;
+    background:black;
+    z-index: 999;
+    position: absolute;
+    top: 0px;
+    display: block;
+    left: 0px;
+    line-height: 264px;
+    color: white;
+    font-family: "微软雅黑 Light";
+    font-size: 20px;
+    margin: 5px 5px;
+    opacity: 0.9;
+    display: none;
+
+}
+
+
+
+/*images box*/
